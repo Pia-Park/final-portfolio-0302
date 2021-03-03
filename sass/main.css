@@ -234,4 +234,58 @@ body .main .title .title-text {
 #about .about-content .about-content-text {
   letter-spacing: 0.3rem;
 }
+
+#art {
+  padding: 3rem;
+}
+
+#art .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4F04EF;
+}
+
+#art .title .title-circle {
+  background-color: #4F04EF;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 3rem;
+}
+
+#art .title .title-text {
+  font-weight: 300;
+  letter-spacing: 1rem;
+  font-size: 1.3rem;
+}
+
+#art .art-work {
+  padding: 3rem 3rem 5rem 6rem;
+  width: 100vw;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#art .art-work img {
+  width: 25vw;
+  height: auto;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
 /*# sourceMappingURL=main.css.map */
