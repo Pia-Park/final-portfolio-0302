@@ -1,0 +1,22 @@
+@import "./value";
+
+#about{
+    padding: 3rem;
+    .title{
+        @include row;
+        align-items: center;
+        color: $color-primary;
+        .title-circle{
+            background-color: $color-primary;
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+            margin-right: 3rem;
+        }
+        .title-text{
+            font-weight: 200;
+
+        }
+        
+    }
+}

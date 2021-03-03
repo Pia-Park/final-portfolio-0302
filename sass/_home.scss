@@ -6,3 +6,87 @@
     box-sizing: border-box;
     font-family: $spartan-sans;
 }
+
+body{
+    padding: 2rem;
+    background-color: black;
+    background-image: url('/img/portrait.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 92vh;
+    background-position-x: right;
+
+    .body-border{
+        background-color: $color-primary;
+        width: 0.1rem;
+        height: 100vh;
+        position: fixed;
+        left: 6.5rem;
+        z-index: -1;
+    }
+
+
+    .nav-bar{
+        @include row;
+        justify-content: space-between;
+        .nav-logo{
+            @include row;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-primary;
+            border-radius: 50%;
+            width: 10rem;
+            height: 10rem;
+            a{
+                color: $color-primary-deep;
+                text-decoration: none;
+                h2{
+                    font-weight: 200;
+                }
+                    &:hover{
+                        color: $color-primary-light;
+                    }
+                
+            }
+        }
+        .main-nav{
+            @include row;
+            list-style: none;
+            li{
+                padding-right: 1rem;
+            }
+            a{
+                color: $color-primary;
+                text-decoration: none;
+                &:hover{
+                    color: $color-primary-light;
+                }
+            }
+        }
+    }
+
+    .main{
+        padding: 3rem;
+        .title{
+            @include row;
+            align-items: center;
+            color: $color-primary;
+            padding-top: 8rem;
+            padding-bottom: 9rem;
+            .title-circle{
+                background-color: $color-primary;
+                border-radius: 50%;
+                width: 3rem;
+                height: 3rem;
+                margin-right: 3rem;
+            }
+            .title-text{
+                font-weight: 300;
+                letter-spacing: 1rem;
+                font-size: 1.3rem;
+    
+            }
+            
+        }
+    }
+}
