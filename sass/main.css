@@ -156,6 +156,13 @@ body .main .title .title-text {
 }
 
 #about .title .title-text {
-  font-weight: 200;
+  font-weight: 300;
+  letter-spacing: 1rem;
+  font-size: 1.3rem;
+}
+
+#about .about-content {
+  padding: 4rem 0 6rem 6rem;
+  color: #4F04EF;
 }
 /*# sourceMappingURL=main.css.map */

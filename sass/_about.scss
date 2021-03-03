@@ -14,9 +14,16 @@
             margin-right: 3rem;
         }
         .title-text{
-            font-weight: 200;
+            font-weight: 300;
+            letter-spacing: 1rem;
+            font-size: 1.3rem;
 
         }
         
+    }
+
+    .about-content{
+        padding: 4rem 0 6rem 6rem;
+        color: $color-primary;
     }
 }
