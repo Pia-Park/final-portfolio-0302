@@ -59,6 +59,7 @@ body .nav-bar .nav-logo {
 }
 
 body .nav-bar .nav-logo a {
+  cursor: pointer;
   color: #2C0C71;
   text-decoration: none;
 }
@@ -87,6 +88,7 @@ body .nav-bar .main-nav li {
 }
 
 body .nav-bar .main-nav a {
+  cursor: pointer;
   color: #4F04EF;
   text-decoration: none;
 }
@@ -129,6 +131,60 @@ body .main .title .title-text {
   font-size: 1.3rem;
 }
 
+#design {
+  padding: 3rem;
+}
+
+#design .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4F04EF;
+}
+
+#design .title .title-circle {
+  background-color: #4F04EF;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 3rem;
+}
+
+#design .title .title-text {
+  font-weight: 300;
+  letter-spacing: 1rem;
+  font-size: 1.3rem;
+}
+
+#design .design-work {
+  padding: 3rem 3rem 5rem 6rem;
+  width: 100vw;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#design .design-work img {
+  width: 25vw;
+  height: auto;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 #about {
   padding: 3rem;
 }
@@ -164,5 +220,18 @@ body .main .title .title-text {
 #about .about-content {
   padding: 4rem 0 6rem 6rem;
   color: #4F04EF;
+  line-height: 2rem;
+  width: 40vw;
+}
+
+#about .about-content .about-content-text-title {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  letter-spacing: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#about .about-content .about-content-text {
+  letter-spacing: 0.3rem;
 }
 /*# sourceMappingURL=main.css.map */

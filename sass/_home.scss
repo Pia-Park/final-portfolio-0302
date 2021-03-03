@@ -38,6 +38,7 @@ body{
             width: 10rem;
             height: 10rem;
             a{
+                cursor: pointer;
                 color: $color-primary-deep;
                 text-decoration: none;
                 h2{
@@ -56,6 +57,7 @@ body{
                 padding-right: 1rem;
             }
             a{
+                cursor: pointer;
                 color: $color-primary;
                 text-decoration: none;
                 &:hover{

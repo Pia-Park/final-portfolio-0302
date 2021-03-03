@@ -25,5 +25,16 @@
     .about-content{
         padding: 4rem 0 6rem 6rem;
         color: $color-primary;
+        line-height: 2rem;
+        width: 40vw;
+        .about-content-text-title{
+            font-size: 1.5rem;
+            line-height: 3rem;
+            letter-spacing: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+        .about-content-text{
+            letter-spacing: 0.3rem;
+        }
     }
 }
