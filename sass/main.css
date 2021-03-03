@@ -113,8 +113,8 @@ body .main .title {
       -ms-flex-align: center;
           align-items: center;
   color: #4F04EF;
-  padding-top: 8rem;
-  padding-bottom: 9rem;
+  padding-top: 10rem;
+  padding-bottom: 13rem;
 }
 
 body .main .title .title-circle {
@@ -287,5 +287,144 @@ body .main .title .title-text {
   height: auto;
   padding-right: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+#illust {
+  padding: 3rem;
+}
+
+#illust .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4F04EF;
+}
+
+#illust .title .title-circle {
+  background-color: #4F04EF;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 3rem;
+}
+
+#illust .title .title-text {
+  font-weight: 300;
+  letter-spacing: 1rem;
+  font-size: 1.3rem;
+}
+
+#illust .illust-work {
+  padding: 3rem 3rem 5rem 6rem;
+  width: 100vw;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#illust .illust-work img {
+  width: 25vw;
+  height: auto;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#contact {
+  padding: 3rem;
+}
+
+#contact .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4F04EF;
+}
+
+#contact .title .title-circle {
+  background-color: #4F04EF;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 3rem;
+}
+
+#contact .title .title-text {
+  font-weight: 300;
+  letter-spacing: 1rem;
+  font-size: 1.3rem;
+}
+
+#contact .contact {
+  padding: 3rem 2rem 8rem 8rem;
+  color: #4F04EF;
+}
+
+#contact .contact .contact-detail {
+  width: 30vw;
+  height: auto;
+  line-height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.5rem;
+}
+
+#contact .contact .contact-detail label {
+  letter-spacing: 0.2rem;
+}
+
+#contact .contact .contact-detail input {
+  width: 30vw;
+  height: 2rem;
+  padding: 1rem;
+}
+
+#contact .contact .contact-detail select {
+  width: 30vw;
+  height: 2rem;
+}
+
+#contact .contact .submit-btn {
+  padding-left: 0.5rem;
+}
+
+#contact .contact .submit-btn input[type=submit] {
+  cursor: pointer;
+  width: 30vw;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #4F04EF;
+  color: #7d5eee;
+  border: 0;
+}
+
+#contact .contact .submit-btn input[type=submit]:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
