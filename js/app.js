@@ -1,7 +1,5 @@
 
 
-
-
 $(document).ready(function() {
     emailjs.init("user_zbhb7nXYLm2s7HiAUFdOX");
     $('input[name=submit]').click(function(){
@@ -17,3 +15,8 @@ $(document).ready(function() {
         });
     });
 });
+
+
+// setInterval(function(){
+//     $(".title").toggle();
+//   }, 250);

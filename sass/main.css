@@ -23,8 +23,8 @@ body .body-border {
   position: fixed;
   left: 6.5rem;
   z-index: -1;
-  -webkit-animation: move 5s linear 1s alternate forwards;
-          animation: move 5s linear 1s alternate forwards;
+  -webkit-animation: move 5s linear 1.5s alternate forwards;
+          animation: move 5s linear 1.5s alternate forwards;
 }
 
 @-webkit-keyframes move {
@@ -53,6 +53,7 @@ body .snow {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: -2;
 }
 
 body .snow .svg {
@@ -122,8 +123,8 @@ body .nav-bar .nav-logo {
   border-radius: 50%;
   width: 0rem;
   height: 0rem;
-  -webkit-animation: logo 1s linear 0s forwards;
-          animation: logo 1s linear 0s forwards;
+  -webkit-animation: logo 2s linear 0s forwards;
+          animation: logo 2s linear 0s forwards;
 }
 
 body .nav-bar .nav-logo a {

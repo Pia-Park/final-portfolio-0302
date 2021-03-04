@@ -23,7 +23,7 @@ body{
         position: fixed;
         left: 6.5rem;
         z-index: -1;
-        animation: move 5s linear 1s alternate forwards;   
+        animation: move 5s linear 1.5s alternate forwards;   
     }
 
     @keyframes move {
@@ -43,6 +43,7 @@ body{
         width: 100%;
         top: 0;
         left: 0;
+        z-index: -2;
     }
 
     .snow .svg {
@@ -82,7 +83,7 @@ body{
             border-radius: 50%;
             width: 0rem;
             height: 0rem;
-            animation: logo 1s linear 0s forwards;   
+            animation: logo 2s linear 0s forwards;   
 
             a{
                 cursor: pointer;
