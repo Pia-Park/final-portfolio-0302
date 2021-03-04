@@ -398,6 +398,11 @@ body .main .title .title-text {
   letter-spacing: 0.2rem;
 }
 
+#contact .contact .contact-detail textarea {
+  width: 30vw;
+  padding: 1rem;
+}
+
 #contact .contact .contact-detail input {
   width: 30vw;
   height: 2rem;
@@ -426,5 +431,6 @@ body .main .title .title-text {
 
 #contact .contact .submit-btn input[type=submit]:hover {
   color: #fff;
+  font-weight: 200;
 }
 /*# sourceMappingURL=main.css.map */

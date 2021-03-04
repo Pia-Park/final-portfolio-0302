@@ -33,6 +33,10 @@
             label{
                 letter-spacing: 0.2rem;
             }
+            textarea{
+                width: 30vw;
+                padding: 1rem;
+            }
             input{
                 width: 30vw;
                 height: 2rem;
@@ -58,6 +62,7 @@
     
                 &:hover{
                     color: $color-white;
+                    font-weight: 200;
                 }
             }
             
