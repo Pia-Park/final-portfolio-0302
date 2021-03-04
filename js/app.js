@@ -46,39 +46,18 @@ $likeForm.hide();
 
 
 
-// function likeCount(e){
-//     if(e.target.classList.contains('like-btn')){
-        
-//         alert('You Like it!');
-//         count++;
-//         if(count === 1){
-//             $likeForm.html('1 like');
-//             $likeForm.show();
-//         } else{
-//             $likeForm.html(count + ' likes');
-//             $likeForm.show();
-
-
-//         }
-        
-//     }
-// };
-
 function likeCount(e){
+
     if(e.target.classList.contains('like-btn')){
         
         alert('You Like it!');
         count++;
-        let likeP = e.target.parentElement;
-        let likeF = likeP.classList.contains('like-text');
         if(count === 1){
-            likeF.innerHTML = `${count} + like`;
-            likeP.appendChild(likeF);
-            likeF.show();
-
+            $likeForm.html('1 like');
+            $likeForm.show();
         } else{
-            $likeF.html(count + ' likes');
-            $likeF.show();
+            $likeForm.html(count + ' likes');
+            $likeForm.show();
 
 
         }
@@ -86,9 +65,56 @@ function likeCount(e){
     }
 };
 
+// function likeCount(e){
+//     if(e.target.classList.contains('like-btn')){
+        
+//         alert('You Like it!');
+//         count++;
+//         let likeP = e.target.parentElement;
+//         let workLike = document.querySelector('work-like');
+//         if(count === 1){
+//             let likeF = document.createElement('form');
+//             likeF.classList.add('like-text');
+//             likeF.innerText = '0 Like';
+
+//         } else{
+//             likeF.html(count + ' likes');
+//             likeF.show();
 
 
+//         }
+        
+//     }
+// };
 
+
+// function likeCount(e){
+//     if(e.target.classList.contains('like-btn')){        
+//         alert('You Like it!');
+//         count++;
+//         let likeP = e.target.parentElement;
+//         likeAdd(likeP, count);
+        
+//     }
+// };
+
+// function likeAdd(likeP, count){
+//     const works = document.querySelector('.work-like');
+//     if(likeP = works){
+//         if(count === 1){
+//             alert('you are ' + count);
+//         } else {
+//             alert('you are ' + count);
+//         }
+
+//     }
+// }
+
+
+// $(".like-btn").click(function(){
+//     count++
+//     alert("you like it! you are "+ count);
+// })
 
 
 $likeBtn.on('click', likeCount);
