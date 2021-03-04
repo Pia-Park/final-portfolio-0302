@@ -21,3 +21,18 @@ $(document).ready(function() {
 //     $(".title").toggle();
 //   }, 250);
 
+
+$(function(){
+    $(window).scroll(function(){ 
+      let num = $(this).scrollTop();
+      if( num > 100 ){  
+        $("#body-line").css("position","fixed");
+        $("#body-line").css("top","0rem");
+
+      }else{
+        $("#body-line").css("position","absolute");
+        $("#body-line").css("top","3rem");
+
+      }
+    });
+});
