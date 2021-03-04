@@ -134,11 +134,26 @@ body .nav-bar .nav-logo a {
 }
 
 body .nav-bar .nav-logo a h2 {
+  -webkit-animation: textlogo 2s linear 1.5s forwards;
+          animation: textlogo 2s linear 1.5s forwards;
+  font-size: 0rem;
   font-weight: 200;
 }
 
 body .nav-bar .nav-logo a:hover {
   color: #7d5eee;
+}
+
+@-webkit-keyframes textlogo {
+  100% {
+    font-size: 1.7rem;
+  }
+}
+
+@keyframes textlogo {
+  100% {
+    font-size: 1.7rem;
+  }
 }
 
 @-webkit-keyframes logo {
@@ -172,6 +187,28 @@ body .nav-bar .main-nav {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style: none;
+  font-size: 0.8rem;
+  color: #2C0C71;
+  -webkit-animation: texttitle2 4s linear 6.5s forwards;
+          animation: texttitle2 4s linear 6.5s forwards;
+}
+
+@-webkit-keyframes texttitle2 {
+  100% {
+    color: #4F04EF;
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+  }
+}
+
+@keyframes texttitle2 {
+  100% {
+    color: #4F04EF;
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+  }
 }
 
 body .nav-bar .main-nav li {
@@ -255,7 +292,23 @@ body .main .title .title-circle {
 body .main .title .title-text {
   font-weight: 300;
   letter-spacing: 1rem;
-  font-size: 1.3rem;
+  font-size: 0rem;
+  -webkit-animation: texttitle 1.5s linear 6.5s forwards;
+          animation: texttitle 1.5s linear 6.5s forwards;
+}
+
+@-webkit-keyframes texttitle {
+  100% {
+    color: #4F04EF;
+    font-size: 1.5rem;
+  }
+}
+
+@keyframes texttitle {
+  100% {
+    color: #4F04EF;
+    font-size: 1.5rem;
+  }
 }
 
 #design {
@@ -313,7 +366,27 @@ body .main .title .title-text {
 }
 
 #about {
-  padding: 3rem;
+  padding: 0rem;
+  -webkit-animation: about 2s linear 0s forwards;
+          animation: about 2s linear 0s forwards;
+}
+
+@-webkit-keyframes about {
+  0% {
+    padding: 20rem;
+  }
+  100% {
+    padding: 3rem;
+  }
+}
+
+@keyframes about {
+  0% {
+    padding: 20rem;
+  }
+  100% {
+    padding: 3rem;
+  }
 }
 
 #about .title {
@@ -345,7 +418,7 @@ body .main .title .title-text {
 }
 
 #about .about-content {
-  padding: 4rem 0 6rem 6rem;
+  padding: 8rem 0 6rem 6rem;
   color: #4F04EF;
   line-height: 2rem;
   width: 40vw;

@@ -20,3 +20,4 @@ $(document).ready(function() {
 // setInterval(function(){
 //     $(".title").toggle();
 //   }, 250);
+

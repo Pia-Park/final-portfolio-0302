@@ -89,12 +89,20 @@ body{
                 cursor: pointer;
                 color: $color-primary-deep;
                 text-decoration: none;
+                
                 h2{
+                    animation: textlogo 2s linear 1.5s forwards;
+                    font-size: 0rem;   
                     font-weight: 200;
                 }
                     &:hover{
                         color: $color-primary-light;
                     }
+                @keyframes textlogo {
+                    100%{
+                        font-size: 1.7rem;
+                    }
+                }
                 
             }
         }
@@ -112,8 +120,21 @@ body{
         .main-nav{
             @include row;
             list-style: none;
+            font-size: 0.8rem;
+            color: $color-primary-deep;
+            animation: texttitle2 4s linear 6.5s forwards;
+            @keyframes texttitle2 {
+                100%{
+                    color: $color-primary;
+                    font-size: 0.8rem;
+                    letter-spacing: 0.3rem;
+                    font-weight: 500;
+                }
+            }
+
             li{
                 padding-right: 1rem;
+                
             }
             a{
                 cursor: pointer;
@@ -160,8 +181,14 @@ body{
             .title-text{
                 font-weight: 300;
                 letter-spacing: 1rem;
-                font-size: 1.3rem;
-    
+                font-size: 0rem;
+                animation: texttitle 1.5s linear 6.5s forwards;
+            }
+            @keyframes texttitle {
+                100%{
+                    color: $color-primary;
+                    font-size: 1.5rem;
+                }
             }
             
         }

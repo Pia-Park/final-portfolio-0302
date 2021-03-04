@@ -1,7 +1,17 @@
 @import "./value";
 
 #about{
-    padding: 3rem;
+    padding: 0rem;
+    animation: about 2s linear 0s forwards;   
+    @keyframes about {
+        0%{
+            padding: 20rem;
+        }
+        100%{
+            padding: 3rem;
+        }
+        
+    }
     .title{
         @include row;
         align-items: center;
@@ -23,7 +33,7 @@
     }
 
     .about-content{
-        padding: 4rem 0 6rem 6rem;
+        padding: 8rem 0 6rem 6rem;
         color: $color-primary;
         line-height: 2rem;
         width: 40vw;
