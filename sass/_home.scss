@@ -19,12 +19,57 @@ body{
     .body-border{
         background-color: $color-primary;
         width: 0.1rem;
-        height: 100vh;
+        height: 0vh;
         position: fixed;
         left: 6.5rem;
         z-index: -1;
+        animation: move 5s linear 1s alternate forwards;   
     }
 
+    @keyframes move {
+        0%{
+            height: 0vh;
+        }
+        100%{
+            height: 100vh;
+        }
+    }
+
+    .snow {
+        position: absolute;
+        min-width: 100vw;
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .snow .svg {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+    }
+
+    #snow-top-layer {
+        will-change: transform;
+        transform: translateY(-768px);
+        animation: fall 22.5s infinite linear;
+    }
+
+    #snow-bottom-layer {
+        will-change: transform;
+        transform: translateY(-768px);
+        animation: fall 45s infinite linear;
+    }
+
+    @keyframes fall {
+        
+        100% {
+            transform: translateY(0);
+        }
+        
+    }
 
     .nav-bar{
         @include row;
@@ -35,8 +80,10 @@ body{
             align-items: center;
             background-color: $color-primary;
             border-radius: 50%;
-            width: 10rem;
-            height: 10rem;
+            width: 0rem;
+            height: 0rem;
+            animation: logo 1s linear 0s forwards;   
+
             a{
                 cursor: pointer;
                 color: $color-primary-deep;
@@ -48,6 +95,17 @@ body{
                         color: $color-primary-light;
                     }
                 
+            }
+        }
+        @keyframes logo {
+            0%{
+                width: 0;
+                height: 0;
+            }
+            100%{
+                width: 10rem;
+                height: 10rem;
+
             }
         }
         .main-nav{
@@ -78,9 +136,25 @@ body{
             .title-circle{
                 background-color: $color-primary;
                 border-radius: 50%;
-                width: 3rem;
-                height: 3rem;
+                width: 0rem;
+                height: 0rem;
                 margin-right: 3rem;
+                animation: big 4s linear 3s forwards;   
+            }
+            @keyframes big {
+                0%{
+                    transform: translateY(-320px);
+                }
+                30%{
+                    width: 3rem;
+                    height: 3rem;
+                }
+                100%{
+                    width: 3rem;
+                    height: 3rem;
+                    transform: translateY(0px);
+                }
+                
             }
             .title-text{
                 font-weight: 300;

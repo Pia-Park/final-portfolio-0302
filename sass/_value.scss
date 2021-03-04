@@ -19,3 +19,12 @@ $spartan-sans: 'Spartan', sans-serif;
     display: flex;
     flex-direction: column;
 }
+
+@mixin move-line {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
