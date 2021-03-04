@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Pia-Park/final-portfolio-0302/issues"
   },
-  "homepage": "https://github.com/Pia-Park/final-portfolio-0302#readme"
+  "homepage": "https://github.com/Pia-Park/final-portfolio-0302#readme",
+  "dependencies": {
+    "emailjs-com": "^2.6.4"
+  }
 }

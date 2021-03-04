@@ -135,23 +135,31 @@
                     </div>
                     <div class="label-input">
                         <!-- <input type="text" name="message" id="message" placeholder="Your message" required> -->
-                        <p><textarea cols="50" rows="10" placeholder="Your message"></textarea></p>
+                        <textarea cols="50" name="message" rows="10" placeholder="Your message"></textarea>
                     </div>                    
                 </div>
                 <div class="submit">
                     <label></label>
                 </div>
                 <div class="submit-btn">
-                    <input type="submit" value="SUBMIT">
+                    <input type="submit" name="submit" value="SUBMIT">
                 </div>
             </div>
         </div>
     </section>
     
 
-<script src="js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+       emailjs.init("user_zbhb7nXYLm2s7HiAUFdOX");
+    })();
+ </script>
+<script type="text/javascript" src="js/app.js"></script>
+
+
 </body>
 </html>
