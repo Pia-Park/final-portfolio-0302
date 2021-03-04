@@ -121,14 +121,16 @@ body{
             @include row;
             list-style: none;
             font-size: 0.8rem;
+            letter-spacing: 0.3rem;
+            font-weight: 500;
             color: $color-primary-deep;
-            animation: texttitle2 4s linear 6.5s forwards;
+            animation: texttitle2 8s linear 0s forwards;
             @keyframes texttitle2 {
+                0%{
+                    transform: translateY(-100px);
+                }
                 100%{
-                    color: $color-primary;
-                    font-size: 0.8rem;
-                    letter-spacing: 0.3rem;
-                    font-weight: 500;
+                    transform: translateY(0);
                 }
             }
 
