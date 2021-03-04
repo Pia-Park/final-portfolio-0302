@@ -399,6 +399,12 @@ body .main .title .title-text {
   width: 3rem;
   height: 3rem;
   padding: 0.3rem;
+  outline: none;
+}
+
+#design .design-work .work .work-like .like-btn:hover {
+  -webkit-filter: hue-rotate(350deg) brightness(200%);
+          filter: hue-rotate(350deg) brightness(200%);
 }
 
 #design .design-work .work .work-like .like-text {
