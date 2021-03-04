@@ -36,3 +36,31 @@ $(function(){
       }
     });
 });
+
+
+let count = 0;
+let $likeBtn = $('.like-btn');
+let $likeForm = $('form');
+
+$likeForm.hide();
+
+
+
+function likeCount(e){
+    if(e.target.classList.contains('like-btn')){
+        alert('You Like it!');
+        count++;
+        if(count === 1){
+            $likeForm.html('1 like');
+            $likeForm.show();
+        } else{
+            $likeForm.html(count + ' likes');
+            $likeForm.show();
+
+
+        }
+        
+    }
+};
+
+$likeBtn.on('click', likeCount);
