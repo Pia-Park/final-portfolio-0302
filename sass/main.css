@@ -557,7 +557,7 @@ body .main .title .title-text {
 
 #art .art-work .work .fb-like {
   position: absolute;
-  padding-top: 0.5rem;
+  margin: 0.5rem;
 }
 
 #illust {
@@ -626,7 +626,7 @@ body .main .title .title-text {
 
 #illust .illust-work .work .fb-like {
   position: absolute;
-  padding-top: 0.5rem;
+  margin: 0.5rem;
 }
 
 #contact {
