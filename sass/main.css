@@ -381,6 +381,11 @@ body .main .title .title-text {
           flex-direction: row;
 }
 
+#design .design-work .work .fb-like {
+  position: absolute;
+  padding-top: 0.5rem;
+}
+
 #design .design-work .work .work-like {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,7 +397,6 @@ body .main .title .title-text {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
 }
 
 #design .design-work .work .work-like .like-btn {
@@ -541,6 +545,21 @@ body .main .title .title-text {
   padding-bottom: 0.5rem;
 }
 
+#art .art-work .work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#art .art-work .work .fb-like {
+  position: absolute;
+  padding-top: 0.5rem;
+}
+
 #illust {
   padding: 3rem;
 }
@@ -593,6 +612,21 @@ body .main .title .title-text {
   height: auto;
   padding-right: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+#illust .illust-work .work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#illust .illust-work .work .fb-like {
+  position: absolute;
+  padding-top: 0.5rem;
 }
 
 #contact {

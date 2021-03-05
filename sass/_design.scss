@@ -36,10 +36,15 @@
         }
         .work{
             @include row;
+            .fb-like{
+                position: absolute;
+                padding-top: 0.5rem;
+
+            }
+
             .work-like{
                 @include row;
                 align-items: center;
-                position: absolute;
 
                 .like-btn{
                     width: 3rem;
