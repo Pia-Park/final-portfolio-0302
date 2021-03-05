@@ -66,6 +66,30 @@ function likeCount(e){
 };
 
 // function likeCount(e){
+
+//     if(e.target.classList.contains('like-btn')){
+
+//         const works = document.querySelector('.work');
+//         const target = e.target.parentElement.parentElement;
+//         const a = target.classList.contains('work-img');
+
+//         for(let i = 0; i < works.length; i++){
+//             if( a = works[i].querySelector('.work-img')){
+//                 alert('You Like it!');
+//                 count++;
+//                 const like = document.createElement('form');
+//                 like.classList.add('like-text');
+//                 like.innerHTML = `<p>${count} Likes`;
+//                 works.appendChild(like);
+                
+//             }
+//         }
+        
+        
+//     }
+// };
+
+// function likeCount(e){
 //     if(e.target.classList.contains('like-btn')){
         
 //         alert('You Like it!');
@@ -117,4 +141,4 @@ function likeCount(e){
 // })
 
 
-$likeBtn.on('click', likeCount);
+// $likeBtn.on('click', likeCount);
