@@ -383,7 +383,7 @@ body .main .title .title-text {
 
 #design .design-work .work .fb-like {
   position: absolute;
-  padding-top: 0.5rem;
+  margin: 0.5rem;
 }
 
 #design .design-work .work .work-like {

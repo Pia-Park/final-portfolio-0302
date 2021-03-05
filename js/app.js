@@ -5,6 +5,16 @@
 // httpProtocolSection.Properties.Item("allowKeepAlive").Value = true;
 
 // adminManager.CommitChanges();
+new KudosPlease({ 
+    el : '.kudos',
+    duration : 1500,
+    persistent : true,
+    status : {
+      alpha: '',
+      beta: '',
+      gamma: 'fontelico-emo-beer'
+    }
+});
 
 $(document).ready(function() {
     emailjs.init("user_zbhb7nXYLm2s7HiAUFdOX");
